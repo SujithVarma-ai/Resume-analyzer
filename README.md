@@ -1,13 +1,14 @@
-# Resume Analyzer (AI Project)
+# AI Resume Analyzer using NLP (TF-IDF + Cosine Similarity)
 
-A web application that analyzes and ranks resumes based on a given job description using NLP techniques.
+> Automatically ranks resumes based on a job description using Natural Language Processing techniques
 
 ## Features
 
 * Upload multiple resumes (PDF/DOCX)
-* Extracts text automatically
+* Automatic text extraction from files
 * Compares resumes with job description
-* Ranks resumes using cosine similarity (TF-IDF)
+* Ranks resumes using cosine similarity
+* Displays match scores for each resume
 
 ## Tech Stack
 
@@ -25,12 +26,18 @@ A web application that analyzes and ranks resumes based on a given job descripti
 
 ![App Screenshot](https://raw.githubusercontent.com/SujithVarma-ai/Resume-analyzer/main/Screenshot%202026-03-25%20004455.png)
 
+## Sample Output
+
+* Resume 1 → 85% match
+* Resume 2 → 72% match
+* Resume 3 → 60% match
+
 ## How It Works
 
 * Extracts text from resumes (PDF/DOCX)
 * Converts text into numerical vectors using TF-IDF
 * Calculates similarity using cosine similarity
-* Ranks resumes based on match score
+* Ranks resumes based on similarity score
 
 ## Project Structure
 
@@ -47,7 +54,9 @@ python app.py
 
 ## Future Improvements
 
-* Add user authentication
-* Improve UI/UX
-* Add support for more file formats
+* Add user authentication system
+* Improve UI/UX design
+* Add visualization for scores (charts/graphs)
+* Support more file formats
 * Deploy with Docker for scalability
+
