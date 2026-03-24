@@ -21,3 +21,5 @@ https://resume-analyzer-pyte.onrender.com
 ```bash
 pip install -r requirements.txt
 python app.py
+## 📸 Screenshot
+![App Screenshot](https://github.com/SujithVarma-ai/Resume-analyzer/raw/main/Screenshot%202026-03-25%20004455.png)
