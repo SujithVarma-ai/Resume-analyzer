@@ -1,6 +1,6 @@
 # AI Resume Analyzer using NLP (TF-IDF + Cosine Similarity)
 
-> Automatically ranks resumes based on a job description using Natural Language Processing techniques
+Automatically analyzes and ranks resumes against a given job description using Natural Language Processing (NLP) techniques.
 
 ## Features
 
